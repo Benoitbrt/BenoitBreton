@@ -1,0 +1,149 @@
+<!doctype html>
+
+<html lang="fr">
+	
+	<head>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+			<script>
+				$(document).ready(function() {
+					$('.nav_a').on('click', function() { // Au clic sur un élément
+						var page = $(this).attr('href'); // Page cible
+						var speed = 750; // Durée de l'animation (en ms)
+						$('html, body').animate( { scrollTop: $(page).offset().top }, speed ); // Go
+						return false;
+					});
+				});
+			</script>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="style.css">
+		<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="dismoidixmots.html">
+		<title>Benoit Breton</title>
+	</head>
+
+
+
+	<body>
+		<div id="conteneur">
+			<div id="position">
+
+			<header>
+					<div id="logo">
+						<a href="index.html">
+						<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 236.88 329.83"><defs><style>.cls-1{fill:#fff;}.cls-2{fill:#00ffb3;}</style></defs><title>logo_couleur</title><g id="Calque_2" data-name="Calque 2"><g id="Calque_1-2" data-name="Calque 1"><path class="cls-1" d="M135.23,268.29H66.41V205.87H35.78v89.26h99.45s43.95,1.6,38.53-43.66C173.75,251.47,166.89,268.29,135.23,268.29Z"/><path class="cls-1" d="M215.82,162l-4.34-3.92a89,89,0,0,1-28.65,25.1h0c10.13,4.45,15.18,9.71,15.18,9.71,20.46,16.67,19.92,44.32,19.92,44.32v39.42c0,14.9-4.54,23.64-4.54,23.64,7.52-5.18,15.13-16.94,15.13-16.94,8-10.53,8.36-34.62,8.36-34.62l0-35.73a70.58,70.58,0,0,0-11.61-40.05A56.11,56.11,0,0,0,215.82,162Z"/><path class="cls-1" d="M198,44.41c20.46,16.67,19.92,44.32,19.92,44.32v39.42c0,14.9-4.54,23.64-4.54,23.64,7.52-5.18,15.13-16.94,15.13-16.94,8-10.53,8.36-34.62,8.36-34.62l0-35.73c.64-29.76-18-48.26-18-48.26C203.4,1.47,178.63,0,169.44,0H35.78V160.29h99.45s43.95,1.6,38.53-43.66c0,0-6.87,16.82-38.53,16.82H66.41V29.7h92a60.49,60.49,0,0,1,23.31,4.52C192.6,38.76,198,44.41,198,44.41Z"/><path class="cls-2" d="M212.21,129.25V88.54a53.29,53.29,0,0,0-53.29-53.29H71.81V64.51h69.55a38,38,0,0,1,38,38V128a38,38,0,0,1-38,38H29.89V.09L0,11.78v318H158.91a53.29,53.29,0,0,0,53.29-53.29V235.83a53.29,53.29,0,0,0-53.29-53.29A53.29,53.29,0,0,0,212.21,129.25ZM179.38,237.52V263a38,38,0,0,1-38,38H29.89V199.5H141.36A38,38,0,0,1,179.38,237.52Z"/></g></g></svg>
+						</a>
+					</div>
+				
+					<nav>
+						<ul>
+							<a href=index.html#flechemention><li>contact</li></a>
+							<a href=index.html#contenu_fleche><li>portfolio</li></a>
+							<a href="apropos.html"><li>à propos</li></a>
+						</ul>
+					</nav>
+			</header>
+		   </div>
+
+
+		<div id="acceuil">
+
+			<a href="apropos.html"><li>Benoit Breton, étudiant design graphique...</li></a>
+
+
+		</div>
+
+
+
+		<div id="contenu_fleche">
+			<div id="fleche">
+				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 324.52 218.11"><defs><style>.cls-1{fill:#fff;}</style></defs><title>Fichier 1</title><g id="Calque_2" data-name="Calque 2"><g id="Calque_1-2" data-name="Calque 1"><polygon class="cls-1" points="266.47 0 162.26 139.6 58.05 0 0 0 162.26 218.11 324.52 0 266.47 0"/></g></g></svg>
+			</div>
+		</div>
+
+
+
+		<div id="contenu_projet">			
+			
+			<a href="dismoidixmots.html">
+			<div id="projet" class="gauche">
+					<img src="images/affiche_susurrer_mockup.png">
+				
+					<h2>DIS MOI DIX
+					MOTS</h2>
+				
+			</div>
+			</a>
+			
+			<a href="trombi.html">
+			<div id="projet" class="droite">
+				<img src="images/Trombi_chloe.png">
+				<h2>TROMBI-NOSCOPE</h2>
+			</div>
+			</a>
+			
+			<a href="affichetypo.html">
+			<div id="projet" class="gauche">
+				<img src="images/affiche_typo_mockup.png">
+				<h2>AFFICHE TYPO</h2>
+			</div>
+			</a>
+			
+			<a href="streetletters.html">
+			<div id="projet" class="droite">
+				<img src="images/A_in_the_street.png">
+				<h2>STREET LETTERS</h2>
+			</div>
+			</a>
+
+			<a href="affichejpo.html">
+			<div id="projet" class="gauche">
+				<img src="images/affiche_jpo.png">
+				<h2>AFFICHE JPO</h2>
+			</div>
+			</a>
+
+			<a href="portraitchinois.html">
+			<div id="projet" class="droite">
+				<img src="images/portrait_chinois.png">
+				<h2>PORTRAIT CHINOIS</h2>
+			</div>
+			</a>
+
+		</div>
+
+
+		<div id="flechemention">
+			<div id="fleche">
+				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 324.52 218.11"><defs><style>.cls-1{fill:#fff;}</style></defs><title>Fichier 1</title><g id="Calque_2" data-name="Calque 2"><g id="Calque_1-2" data-name="Calque 1"><polygon class="cls-1" points="266.47 0 162.26 139.6 58.05 0 0 0 162.26 218.11 324.52 0 266.47 0"/></g></g></svg>
+			</div>
+		</div>
+
+
+
+
+
+
+<div id="contact">
+	<h3>benoitbretonpro@gmail.com</h3>
+</div>
+
+
+
+
+
+<div id="footer">
+	<h6>© 2018 Le présent site internet est la propriété de Breton Benoit</h6>
+</div>
+	
+
+
+
+
+		</div>
+	</body>
+</html>
+
+
+
+
+

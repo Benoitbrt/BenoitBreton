@@ -1,0 +1,429 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/****************************************** fin du reset **/
+
+
+
+body{
+	background-color: #18181E;
+}
+
+#conteneur{
+	height: 3000px;
+}
+
+#position{
+	position: fixed;
+	width: 100%;
+}
+
+header{
+	background-color: #18181E;
+	width: 80%;
+	height: 100px;
+	margin: auto;
+}
+
+#logo{
+	width: 45px;
+	margin-top: 10px;
+	display: inline-block;
+
+}
+
+#logo svg{
+	width: 45px;
+	margin-top:10px;
+}
+
+nav{
+	margin-top: 40px;
+	vertical-align: top;
+	display: inline-block;
+	float: right;
+	width: 60%;
+}
+
+
+li{
+	/*background-color: green;*/
+	float: right;
+	display: inline-block;
+	color: white;
+	font-family: arial;
+	margin-left: 10%;
+
+}
+
+li:hover{
+	color: #00FFB3;
+}
+
+div#acceuil{
+	width: 80%;
+	height: 610px;
+	margin: auto;
+	padding-top: 200px;
+}
+
+#acceuil li{
+	text-align: center;
+	font-family: arial black;
+	font-size: 70px;
+	color: white;
+	margin: auto;
+	padding-top: 100px;
+}
+
+#acceuil li:hover{
+	color: #00FFB3;
+}
+
+#acceuil h1{
+	padding-top: 100px;
+}
+
+h1{
+	text-align: center;
+	font-family: arial black;
+	font-size: 70px;
+	color: white;
+}
+
+h1:hover{
+	color: #00FFB3;
+}
+
+/*div#acceuil img{
+	width: 980px;
+	height: 600px;
+	margin: auto;
+}*/
+
+
+
+
+#contenu_fleche{
+	/*background-color: green;*/
+	width: 80%;
+	height: 100px;
+	margin: auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+#fleche{
+	width: 40px;
+	margin: auto;
+
+}
+
+#contenu_projet{
+	/*background-color: blue;*/
+	display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+	width: 80%;
+	margin: auto;
+
+}
+
+#projet{
+	background-image: url("images/visualiser_3C.gif");
+	width: 400px;
+	height: 600px;
+	display: inline-block;
+	background-repeat: no-repeat;
+	background-size: 400px;	
+}
+
+#projet:hover img{
+	opacity: 0;
+	transition: all 0.5s;
+	
+}
+
+#projet img{
+	width: 400px;
+	height: 400px;
+	/*visibility: visible;*/
+}
+
+#projet:hover h2{
+	opacity: 1;
+	transition: all 0.5s;
+}
+
+h2{
+	font-family: arial black;
+	font-size: 72px;
+	color: white;
+}
+
+
+#projet h2{
+	opacity: 0;
+}
+/*.gauche{
+
+}
+
+.droite{
+	float: right;
+
+
+}*/
+
+
+
+
+
+/*
+ █████╗     ██████╗ ██████╗  ██████╗ ██████╗  ██████╗ ███████╗
+██╔══██╗    ██╔══██╗██╔══██╗██╔═══██╗██╔══██╗██╔═══██╗██╔════╝
+███████║    ██████╔╝██████╔╝██║   ██║██████╔╝██║   ██║███████╗
+██╔══██║    ██╔═══╝ ██╔══██╗██║   ██║██╔═══╝ ██║   ██║╚════██║
+██║  ██║    ██║     ██║  ██║╚██████╔╝██║     ╚██████╔╝███████║
+╚═╝  ╚═╝    ╚═╝     ╚═╝  ╚═╝ ╚═════╝ ╚═╝      ╚═════╝ ╚══════╝
+*/                                                              
+
+#conteneurapropos{
+	height: 1060px;
+}
+
+#apropos{
+	width: 60%;
+	height: 500px;
+	margin: auto;
+	padding-top: 200px;
+	/*background-color: red;*/
+}
+
+#apropos p{
+	font-size: 50px;
+	font-family: arial black;
+	color: white;
+	padding-top: 80px;
+	text-align: left;
+}
+
+
+
+/*
+
+
+██████╗  █████╗  ██████╗ ███████╗███████╗                ██████╗ ██████╗  ██████╗      ██╗███████╗████████╗███████╗
+██╔══██╗██╔══██╗██╔════╝ ██╔════╝██╔════╝                ██╔══██╗██╔══██╗██╔═══██╗     ██║██╔════╝╚══██╔══╝██╔════╝
+██████╔╝███████║██║  ███╗█████╗  ███████╗                ██████╔╝██████╔╝██║   ██║     ██║█████╗     ██║   ███████╗
+██╔═══╝ ██╔══██║██║   ██║██╔══╝  ╚════██║                ██╔═══╝ ██╔══██╗██║   ██║██   ██║██╔══╝     ██║   ╚════██║
+██║     ██║  ██║╚██████╔╝███████╗███████║                ██║     ██║  ██║╚██████╔╝╚█████╔╝███████╗   ██║   ███████║
+╚═╝     ╚═╝  ╚═╝ ╚═════╝ ╚══════╝╚══════╝                ╚═╝     ╚═╝  ╚═╝ ╚═════╝  ╚════╝ ╚══════╝   ╚═╝   ╚══════╝
+                                                                                                                   
+*/
+
+body{
+	background-color: #18181E;
+}
+
+div#DMDMacceuil{
+	width: 980px;
+	margin: auto;
+	padding-top: 100px;
+	/*background-color: red;*/
+}
+
+div#DMDMacceuil h1{
+	font-size: 60px;
+}
+
+
+#DMDMposition{
+	position: fixed;
+	width: 100%;
+}
+
+#DMDMcontenu_fleche{
+	padding-top: 100px;
+	width: 100px;
+	height: 100px;
+	display: inline-block;
+}
+
+.st0{
+	fill:#FFFFFF;
+}
+
+.st0:hover{
+	fill:#00FFB3;
+}
+
+.DMDMdroite{
+	float: right;
+}
+
+#DMDMfleche{
+	width: 40px;
+	margin: auto;
+}
+
+#DMDMtexte{
+	padding-top: 70px;
+	width: 980px;
+	margin: auto;
+}
+
+#DMDMtexte p{
+	color: white;
+	font-family: arial;
+	text-align: center;
+}
+
+#DMDMcontenu_images{
+	padding-top: 100px;
+	width: 980px;
+	margin: auto;
+	/*background-color: red;*/
+}
+
+#DMDMimages{
+	width: 980px;
+	height: 600px;
+	background-repeat: no-repeat;
+	background-size: 100%;	
+	/*background-color: #00FFB3;*/
+}
+
+#DMDMimages img{
+	width: 980px;
+	height: 600px;
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+#DMDMprojet{
+	padding-top: 20px;
+	padding-bottom: 20px;
+	width: 480px;
+	height: 480px;
+	/*background-color: green;*/
+	display: inline-block;
+}
+
+#DMDMprojet img{
+	width: 480px;
+	height: 480px;
+	display: inline-block;
+	background-repeat: no-repeat;
+	background-size: 480px;	
+}
+
+.DMDMimggauche{
+
+}
+
+.DMDMimgdroite{
+	float: right;
+}
+
+/*
+ ██████╗ ██████╗ ███╗   ██╗████████╗ █████╗  ██████╗████████╗
+██╔════╝██╔═══██╗████╗  ██║╚══██╔══╝██╔══██╗██╔════╝╚══██╔══╝
+██║     ██║   ██║██╔██╗ ██║   ██║   ███████║██║        ██║   
+██║     ██║   ██║██║╚██╗██║   ██║   ██╔══██║██║        ██║   
+╚██████╗╚██████╔╝██║ ╚████║   ██║   ██║  ██║╚██████╗   ██║   
+ ╚═════╝ ╚═════╝ ╚═╝  ╚═══╝   ╚═╝   ╚═╝  ╚═╝ ╚═════╝   ╚═╝                                                                                                                                                                                            
+*/
+
+#contact{
+	width: 80%;
+	height: 300px;
+	margin: auto;
+	padding-top: 200px;	
+}
+
+h3{
+	width: 600px;
+	font-family: arial black;
+	font-size: 39px;
+	color: white;
+	margin: auto;
+}
+
+h3:hover{
+	color: #00FFB3;
+}
+
+
+/*
+███╗   ███╗███████╗███╗   ██╗████████╗██╗ ██████╗ ███╗   ██╗
+████╗ ████║██╔════╝████╗  ██║╚══██╔══╝██║██╔═══██╗████╗  ██║
+██╔████╔██║█████╗  ██╔██╗ ██║   ██║   ██║██║   ██║██╔██╗ ██║
+██║╚██╔╝██║██╔══╝  ██║╚██╗██║   ██║   ██║██║   ██║██║╚██╗██║
+██║ ╚═╝ ██║███████╗██║ ╚████║   ██║   ██║╚██████╔╝██║ ╚████║
+╚═╝     ╚═╝╚══════╝╚═╝  ╚═══╝   ╚═╝   ╚═╝ ╚═════╝ ╚═╝  ╚═══╝
+*/
+
+#footer{
+	width: 80%;
+	height: 250px;
+	margin: auto;
+}
+
+h6{
+	width: 500px;
+	font-family: arial black;
+	font-size: 14px;
+	color: white;
+	margin: auto;
+	padding-top: 200px;
+}
+
